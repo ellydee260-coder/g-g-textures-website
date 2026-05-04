@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&G Textures | Wall Coats & Professional Finishes</title>
+    <style>
+        :root {
+            --navy: #001f3f;
+            --gold: #c5a059;
+            --light-gold: #e5c185;
+            --white: #ffffff;
+            --gray: #f4f4f4;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--white);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        header {
+            background: linear-gradient(rgba(0, 31, 63, 0.9), rgba(0, 31, 63, 0.9)), url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070') center/cover;
+            color: var(--white);
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 5px solid var(--gold);
+        }
+
+        .logo-area h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+            color: var(--white);
+        }
+
+        .logo-area span {
+            color: var(--gold);
+            display: block;
+            font-size: 1.5rem;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        /* Gallery Subheading Section */
+        .gallery-invite {
+            background-color: var(--gold);
+            color: var(--navy);
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        .gallery-invite a {
+            color: var(--navy);
+            text-decoration: underline;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--navy);
+            margin-bottom: 40px;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .service-card {
+            background: var(--navy);
+            color: var(--white);
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 5px solid var(--gold);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-card h3 {
+            color: var(--gold);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        /* Info Bar */
+        .info-bar {
+            background: var(--gray);
+            text-align: center;
+            padding: 40px 20px;
+            margin: 40px 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .highlight {
+            font-size: 1.2rem;
+            color: var(--navy);
+            font-weight: bold;
+        }
+
+        /* Contact Footer */
+        footer {
+            background: var(--navy);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--navy);
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .logo-area h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <h1>G&G TEXTURES</h1>
+            <span>WALL COATS: THE ART OF THE FINISH</span>
+        </div>
+    </header>
+
+    <section class="gallery-invite">
+        <p>To see our gallery and videos of our work, visit our channel with the link below: <br>
+        <a href="https://whatsapp.com/channel/0029VbCMp8HAO7R8UZZmd11O" target="_blank">View Our Portfolio on WhatsApp</a></p>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Ceiling Designing</h3>
+                <p>Specialized applications of Gamazine & Glamacoat to transform your ceilings into works of art.</p>
+            </div>
+            <div class="service-card">
+                <h3>Wall Plastering</h3>
+                <p>Smooth plastering and expert Gamazine & Glamacoat finishes for a durable, premium look.</p>
+            </div>
+            <div class="service-card">
+                <h3>Wall & Roof Painting</h3>
+                <p>Professional painting and decorative coating services to protect and beautify your property.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-bar">
+        <p class="highlight">Transforming Spaces with Quality & Precision.</p>
+        <p>Delivery of Gamazine & Glamacoat Available <br> 
+        <small>(Rates negotiable based on location)</small></p>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>📞 060 290 9378 | 074 097 0118</p>
+            <p>✉️ samsonpanashe44@gmail.com</p>
+        </div>
+        <a href="https://wa.me/27602909378" class="btn">Chat on WhatsApp</a>
+        <p style="margin-top: 30px; font-size: 0.8rem; opacity: 0.7;">&copy; 2026 G&G Textures. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
